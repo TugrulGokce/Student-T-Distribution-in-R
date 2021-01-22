@@ -14,3 +14,10 @@ Likewise, I chose 50 samples of 6 sizes.I also calculated the t-value for this
 
 Then, using these t-values, I graphed how Student's t-distribution changes for df.
 
+# Result 
+As df increases, it approaches the normal distribution. As df increases, we get a pointed gaussian curve.
+
+![Student T Distribution](https://user-images.githubusercontent.com/63010257/105499586-c1d85580-5cd2-11eb-9604-32e30f687830.png)
+
+
+
