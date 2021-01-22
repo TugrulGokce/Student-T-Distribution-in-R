@@ -2,7 +2,7 @@
 
 # read csv file
 library(readr)
-X500_Person_Gender_Height_Weight_Index <- read_csv("C:/EXCEL Ornekler/500_Person_Gender_Height_Weight_Index.csv")
+X500_Person_Gender_Height_Weight_Index <- read_csv("C:/EXCEL Examples/500_Person_Gender_Height_Weight_Index.csv")
 View(X500_Person_Gender_Height_Weight_Index)
 
 fiveHundredPerson_Height <- head(X500_Person_Gender_Height_Weight_Index,500)
