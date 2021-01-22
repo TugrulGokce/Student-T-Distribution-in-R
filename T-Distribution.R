@@ -45,7 +45,7 @@ t.value <- function(x,ort){
 for(i in 1:length(personSample_list)){
     mean_for_size_16[i] <- mean(personSample_list[[i]]) # compute the mean
     sd_for_size_16[i] <- sd(personSample_list[[i]]) # compute the standart deviation
-    t1[[i]] <- t.value(personSample_list[[i]], population_mean) # (x¯ - µ)/(s/sqrt(n)) --> t value
+    t1[[i]] <- t.value(personSample_list[[i]], population_mean) # (xÂ¯ - Âµ)/(s/sqrt(n)) --> t value
 }
 
 
@@ -70,7 +70,7 @@ t2 <- NA
 for(i in 1:length(personSample_list_2)){
     mean_for_size_6[i] <- mean(personSample_list_2[[i]]) # compute the mean
     sd_for_size_6[i] <- sd(personSample_list_2[[i]]) # compute the standart deviation
-    t2[[i]] <- t.value(personSample_list_2[[i]], population_mean) # (x¯ - µ)/(s/sqrt(n)) --> t value
+    t2[[i]] <- t.value(personSample_list_2[[i]], population_mean) # (xÂ¯ - Âµ)/(s/sqrt(n)) --> t value
 }
 
 # --------------------------------------------------------------------------------------------------------
@@ -85,7 +85,7 @@ all_T_Values <- round(all_T_Values,3)
 length(all_T_Values)
 all_T_Values
 
-# random variable calculation for values ??????on the y-axis of the chart
+# random variable calculation for values on the y-axis of the chart
 hx <- dnorm(all_T_Values)
 hx
 length(hx)
